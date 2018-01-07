@@ -21,6 +21,7 @@ struct MyKey: Codable {
 }
 //: Create an array of all your API keys that you want to store.
 let myKeys = [MyKey(keyName: "facebookAPIKey", keyValue: "ValueOfMyFacebookAPIKey", type: .facebook), MyKey(keyName: "twitterAPIKey", keyValue: "ValueOfMyTwitterAPIKey", type: .twitter)]
+//: Create a seperate folder that will contain your plist file containing your key/values.
 let documentSubdirectoryURL = URL(
     fileURLWithPath: "MyPlistFolder",
     relativeTo: FileManager.documentDirectoryURL
