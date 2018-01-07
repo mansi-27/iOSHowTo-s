@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>apiKeyName</key>
+		<string>facebookAPIKey</string>
+		<key>apiKeyValue</key>
+		<string>ValueOfMyFacebookAPIKey</string>
+		<key>keyType</key>
+		<string>facebook</string>
+	</dict>
+	<dict>
+		<key>apiKeyName</key>
+		<string>twitterAPIKey</string>
+		<key>apiKeyValue</key>
+		<string>ValueOfMyTwitterAPIKey</string>
+		<key>keyType</key>
+		<string>twitter</string>
+	</dict>
+</array>
+</plist>
