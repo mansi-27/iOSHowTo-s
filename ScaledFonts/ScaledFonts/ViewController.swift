@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         """
             )
         }
-        myLabel.font = customFont
+        myLabel.font = UIFontMetrics.default.scaledFont(for: customFont)
         myLabel.adjustsFontForContentSizeCategory = true
     }
     
