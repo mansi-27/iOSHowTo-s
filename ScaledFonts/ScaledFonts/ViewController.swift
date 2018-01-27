@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let pointSize = userFont.pointSize
         guard let customFont = UIFont(name: "Cambria-Bold", size: pointSize) else {
             fatalError("""
-        Failed to load the "cambriab" font.
+        Failed to load the "Cambria-Bold" font.
         Make sure the font file is included in the project and the font name is spelled correctly.
         """
             )
