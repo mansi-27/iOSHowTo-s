@@ -32,14 +32,18 @@ class ViewController: UIViewController {
             }
         }*/
         
-        guard let customFont = UIFont(name: "Cambria-Bold", size: 40.0) else {
+        
+        
+        let userFont =  UIFontDescriptor.preferredFontDescriptor(withTextStyle: .title1)
+        let pointSize = userFont.pointSize
+        guard let customFont = UIFont(name: "Cambria-Bold", size: pointSize) else {
             fatalError("""
         Failed to load the "cambriab" font.
         Make sure the font file is included in the project and the font name is spelled correctly.
         """
             )
         }
-        myLabel.font = UIFontMetrics.default.scaledFont(for: customFont)
+        myLabel.font = customFont
         myLabel.adjustsFontForContentSizeCategory = true
     }
     
