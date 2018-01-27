@@ -32,8 +32,6 @@ class ViewController: UIViewController {
             }
         }*/
         
-        
-        
         let userFont =  UIFontDescriptor.preferredFontDescriptor(withTextStyle: .title1)
         let pointSize = userFont.pointSize
         guard let customFont = UIFont(name: "Cambria-Bold", size: pointSize) else {
