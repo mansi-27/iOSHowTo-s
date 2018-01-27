@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setCustomFont()
+        setScaledCustomFont()
         myLabel.text = "Let's see our custom Fonts in action..."
         myLabel.textColor = .red
     }
 
-    func setCustomFont() {
+    func setScaledCustomFont() {
         myLabel.font = getScaledFont(forFont: "Cambria-Bold", textStyle: .title1)
         myLabel.adjustsFontForContentSizeCategory = true
     }
